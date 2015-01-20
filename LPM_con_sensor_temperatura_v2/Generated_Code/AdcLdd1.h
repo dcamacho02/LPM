@@ -6,7 +6,7 @@
 **     Component   : ADC_LDD
 **     Version     : Component 01.183, Driver 01.08, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-10-24, 17:30, # CodeGen: 3
+**     Date/Time   : 2015-01-19, 21:10, # CodeGen: 5
 **     Abstract    :
 **         This device "ADC_LDD" implements an A/D converter,
 **         its control methods and interrupt/event handling procedure.
@@ -31,12 +31,12 @@
 **          Asynchro clock output                          : Disabled
 **          Sample time                                    : 4 clock periods
 **          Number of conversions                          : 1
-**          Conversion time                                : 19.230769 µs
-**          ADC clock                                      : 1.31 MHz (762.939 ns)
-**          Single conversion time - Single-ended          : 23.126 us
-**          Single conversion time - Differential          : 29.993 us
-**          Additional conversion time - Single-ended      : 19.073 us
-**          Additional conversion time - Differential      : 25.939 us
+**          Conversion time                                : 4.807692 µs
+**          ADC clock                                      : 5.242 MHz (190.735 ns)
+**          Single conversion time - Single-ended          : 5.96 us
+**          Single conversion time - Differential          : 7.677 us
+**          Additional conversion time - Single-ended      : 4.768 us
+**          Additional conversion time - Differential      : 6.484 us
 **          Result type                                    : unsigned 16 bits, right justified
 **          Trigger                                        : Disabled
 **          Voltage reference                              : 
@@ -486,7 +486,7 @@ PE_ISR(AdcLdd1_MeasurementCompleteInterrupt);
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.10]
+**     This file was created by Processor Expert 10.4 [05.11]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

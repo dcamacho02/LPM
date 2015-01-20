@@ -6,7 +6,7 @@
 **     Component   : TimerInt
 **     Version     : Component 02.161, Driver 01.02, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-10-24, 17:30, # CodeGen: 3
+**     Date/Time   : 2015-01-19, 20:53, # CodeGen: 4
 **     Abstract    :
 **         This component "TimerInt" implements a periodic interrupt.
 **         When the component and its events are enabled, the "OnInterrupt"
@@ -174,7 +174,7 @@ void TimerIntLdd1_OnInterrupt(LDD_TUserData *UserDataPtr)
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.10]
+**     This file was created by Processor Expert 10.4 [05.11]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

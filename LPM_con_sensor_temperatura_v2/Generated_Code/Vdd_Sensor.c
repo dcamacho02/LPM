@@ -6,7 +6,7 @@
 **     Component   : BitIO
 **     Version     : Component 02.086, Driver 01.00, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-10-24, 17:10, # CodeGen: 1
+**     Date/Time   : 2015-01-19, 20:53, # CodeGen: 4
 **     Abstract    :
 **         This component "BitIO" implements an one-bit input/output.
 **         It uses one bit/pin of a port.
@@ -178,7 +178,7 @@ void Vdd_Sensor_SetVal(void)
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.10]
+**     This file was created by Processor Expert 10.4 [05.11]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

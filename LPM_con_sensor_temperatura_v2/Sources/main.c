@@ -28,6 +28,8 @@
 
 
 /* Including needed modules to compile this module/procedure */
+#include <stdio.h>
+#include <string.h>
 #include "Cpu.h"
 #include "Events.h"
 #include "ADC_Temp.h"
@@ -68,16 +70,16 @@ int main(void)
 	uint16	Size_Rx, Sent, ADC0_Value, ADC_Channel;
 	uint8	temp, err,UART_Rx,i;
 	uint8	*P;
-	char x;
+	uint8 x;
 	struct {					//	Esta estructura guarda los datos que se enviaran a traves de UART0
-		char	Header[4];		//	Header de datos.
+		uint8	Header[4];		//	Header de datos.
 		uint32	SecuenceN;		//	Numero de la secuencia de datos.
 		uint8	SensorT;		//	Tipo de sensor
 		uint8	SensorN;        //  Numero de sensor
 		uint8	SensorS;        //  Estado del sensor
 		uint8	ReportT;        //  Tipo de reporte
 		uint8	DataL;          //  Longitud de los datos
-		char	Value[4];		//	Valor de la variable
+		uint8	Value[4];		//	Valor de la variable
 
 	}Data;
   /*** Processor Expert internal initialization. DON'T REMOVE THIS CODE!!! ***/
@@ -107,8 +109,8 @@ int main(void)
 	  {
 		  ADC_Temp_Measure(TRUE);				//Enciende la captura del ADC.
 		  ADC_Temp_GetValue(&ADC0_Value);		//Obtiene el valor capturado por el ADC
-		  Temp(&ADC0_Value,&Data.Value);		//se empaqueta el valor capturado
-		  UART_SendBlock(&Data,17, &Sent);		//se envia la trama de datos
+		  Temp((uint16 *)&ADC0_Value,(uint8 *)&Data.Value);		//se empaqueta el valor capturado
+		  UART_SendBlock((uint8 *)&Data,17, &Sent);		//se envia la trama de datos
 		  Data.SecuenceN++;						//se aumenta la secuencia que llevamos de datos enviados
 		  x++;
 		  delayms(30);							//se espera a que toda la trama sea enviada.

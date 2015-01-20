@@ -6,7 +6,7 @@
 **     Component   : BitIO_LDD
 **     Version     : Component 01.033, Driver 01.03, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-10-24, 17:10, # CodeGen: 1
+**     Date/Time   : 2015-01-19, 20:53, # CodeGen: 4
 **     Abstract    :
 **         The HAL BitIO component provides a low level API for unified
 **         access to general purpose digital input/output pins across
@@ -258,7 +258,7 @@ void BitIoLdd2_SetVal(LDD_TDeviceData *DeviceDataPtr)
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.10]
+**     This file was created by Processor Expert 10.4 [05.11]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

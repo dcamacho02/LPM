@@ -6,7 +6,7 @@
 **     Component   : ADC
 **     Version     : Component 01.697, Driver 01.00, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-10-24, 17:30, # CodeGen: 3
+**     Date/Time   : 2015-01-19, 21:10, # CodeGen: 5
 **     Abstract    :
 **         This device "ADC" implements an A/D converter,
 **         its control methods and interrupt/event handling procedure.
@@ -24,7 +24,7 @@
 **              A/D channel (pin) signal                   : 
 **              Mode select                                : Single Ended
 **          A/D resolution                                 : Autoselect
-**          Conversion time                                : 19.230769 µs
+**          Conversion time                                : 4.807692 µs
 **          Low-power mode                                 : Disabled
 **          High-speed conversion mode                     : Disabled
 **          Asynchro clock output                          : Disabled
@@ -439,7 +439,7 @@ void ADC_Temp_Init(void)
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.10]
+**     This file was created by Processor Expert 10.4 [05.11]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

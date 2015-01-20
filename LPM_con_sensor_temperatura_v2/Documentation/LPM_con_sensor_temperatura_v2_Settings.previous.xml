@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PE_PROJECT_SETTINGS_DOCUMENTATION>
   <PE_product_version v="version 10.4 for Freescale Microcontrollers" />
-  <PE_core_version v="Processor Expert Version 0510" />
+  <PE_core_version v="Processor Expert Version 0511" />
   <CPU_Bean name="Cpu" type="MKL26Z256MC4">
     <Enabled v="Y" />
     <Properties>
@@ -487,15 +487,15 @@ Autoselect
         <Methods>
           <Init v="generate code" />
           <Deinit v="don&amp;apos;t generate code" />
-          <Enable v="don&amp;apos;t generate code" />
-          <Disable v="don&amp;apos;t generate code" />
+          <Enable v="generate code" />
+          <Disable v="generate code" />
           <GetEventMask v="don&amp;apos;t generate code" />
           <SetEventMask v="don&amp;apos;t generate code" />
           <StartSingleMeasurement v="generate code" />
           <StartLoopMeasurement v="don&amp;apos;t generate code" />
           <StartSingleTriggeredMeasurement v="don&amp;apos;t generate code" />
           <StartLoopTriggeredMeasurement v="don&amp;apos;t generate code" />
-          <CancelMeasurement v="generate code" />
+          <CancelMeasurement v="don&amp;apos;t generate code" />
           <GetMeasuredValues v="generate code" />
           <SelectSampleGroup v="don&amp;apos;t generate code" />
           <CreateSampleGroup v="generate code" />
@@ -553,8 +553,8 @@ Autoselect
       </group>
     </Properties>
     <Methods>
-      <Enable v="don&amp;apos;t generate code" />
-      <Disable v="don&amp;apos;t generate code" />
+      <Enable v="generate code" />
+      <Disable v="generate code" />
       <EnableEvent v="don&amp;apos;t generate code" />
       <DisableEvent v="don&amp;apos;t generate code" />
       <Start v="don&amp;apos;t generate code" />
@@ -563,7 +563,7 @@ Autoselect
       <MeasureChan v="don&amp;apos;t generate code" />
       <EnableExtChanTrigger v="don&amp;apos;t generate code" />
       <EnableIntChanTrigger v="don&amp;apos;t generate code" />
-      <GetValue v="don&amp;apos;t generate code" />
+      <GetValue v="generate code" />
       <GetChanValue v="don&amp;apos;t generate code" />
       <GetValue8 v="don&amp;apos;t generate code" />
       <GetChanValue8 v="don&amp;apos;t generate code" />
@@ -938,8 +938,8 @@ Autoselect
           <Methods>
             <Init v="generate code" />
             <Deinit v="don&amp;apos;t generate code" />
-            <Enable v="don&amp;apos;t generate code" />
-            <Disable v="don&amp;apos;t generate code" />
+            <Enable v="generate code" />
+            <Disable v="generate code" />
             <SetEventMask v="don&amp;apos;t generate code" />
             <GetEventMask v="don&amp;apos;t generate code" />
             <GetEventStatus v="don&amp;apos;t generate code" />
@@ -964,8 +964,8 @@ Autoselect
       </group>
     </Properties>
     <Methods>
-      <Enable v="don&amp;apos;t generate code" />
-      <Disable v="don&amp;apos;t generate code" />
+      <Enable v="generate code" />
+      <Disable v="generate code" />
       <EnableEvent v="don&amp;apos;t generate code" />
       <DisableEvent v="don&amp;apos;t generate code" />
       <SetPeriodMode v="don&amp;apos;t generate code" />
@@ -1045,8 +1045,8 @@ Autoselect
     <Methods>
       <Init v="generate code" />
       <Deinit v="don&amp;apos;t generate code" />
-      <Enable v="don&amp;apos;t generate code" />
-      <Disable v="don&amp;apos;t generate code" />
+      <Enable v="generate code" />
+      <Disable v="generate code" />
       <SetEventMask v="don&amp;apos;t generate code" />
       <GetEventMask v="don&amp;apos;t generate code" />
       <GetEventStatus v="don&amp;apos;t generate code" />

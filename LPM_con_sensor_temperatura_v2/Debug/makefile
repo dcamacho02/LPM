@@ -52,7 +52,7 @@ all: LPM_con_sensor_temperatura_v2.elf secondary-outputs
 LPM_con_sensor_temperatura_v2.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: Cross ARM C++ Linker'
-	arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/David/workspace.kds/LPM_con_sensor_temperatura_v2/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/David/workspace.kds/LPM_con_sensor_temperatura_v2/Project_Settings/Linker_Files" -Wl,-Map,"LPM_con_sensor_temperatura_v2.map" -nanolibc -o "LPM_con_sensor_temperatura_v2.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Project_Settings/Linker_Files" -Wl,-Map,"LPM_con_sensor_temperatura_v2.map" -nanolibc -o "LPM_con_sensor_temperatura_v2.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

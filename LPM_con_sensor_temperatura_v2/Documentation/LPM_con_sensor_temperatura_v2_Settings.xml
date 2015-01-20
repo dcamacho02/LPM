@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <PE_PROJECT_SETTINGS_DOCUMENTATION>
   <PE_product_version v="version 10.4 for Freescale Microcontrollers" />
-  <PE_core_version v="Processor Expert Version 0510" />
+  <PE_core_version v="Processor Expert Version 0511" />
   <CPU_Bean name="Cpu" type="MKL26Z256MC4">
     <Enabled v="Y" />
     <Properties>
@@ -445,12 +445,12 @@ Autoselect
           <Asynchro_clock_output v="Disabled" />
           <Sample_time v="4 clock periods" />
           <Number_of_conversions v="1" />
-          <Conversion_time v="19.230769 &amp;#181;s" />
-          <ADC_clock v="1.31 MHz (762.939 ns)" />
-          <Single_conversion_time___Single_ended v="23.126 us" />
-          <Single_conversion_time___Differential v="29.993 us" />
-          <Additional_conversion_time___Single_ended v="19.073 us" />
-          <Additional_conversion_time___Differential v="25.939 us" />
+          <Conversion_time v="4.807692 &amp;#181;s" />
+          <ADC_clock v="5.242 MHz (190.735 ns)" />
+          <Single_conversion_time___Single_ended v="5.96 us" />
+          <Single_conversion_time___Differential v="7.677 us" />
+          <Additional_conversion_time___Single_ended v="4.768 us" />
+          <Additional_conversion_time___Differential v="6.484 us" />
           <Result_type v="unsigned 16 bits, right justified" />
           <boolgroup name="Trigger" v="Disabled" />
           <group name="Voltage reference">
@@ -535,7 +535,7 @@ Autoselect
 
         <EmptySection_DummyValue />
       </A_D_resolution>
-      <Conversion_time v="19.230769 &amp;#181;s" />
+      <Conversion_time v="4.807692 &amp;#181;s" />
       <Low_power_mode v="Disabled" />
       <High_speed_conversion_mode v="Disabled" />
       <Asynchro_clock_output v="Disabled" />

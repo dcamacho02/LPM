@@ -35,82 +35,82 @@
     <FLASHsize>128k</FLASHsize>
   </PROCESSOR>
   <PATHS>
-    <LinkerCommandFile>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
+    <LinkerCommandFile>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Project_Settings\Linker_Files\ProcessorExpert.ld</LinkerCommandFile>
     <IncludePaths>
-      <Path>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\</Path>
-      <Path>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\iofiles\</Path>
-      <Path>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Sources\</Path>
-      <Path>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\</Path>
+      <Path>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\</Path>
+      <Path>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\iofiles\</Path>
+      <Path>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Sources\</Path>
+      <Path>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\</Path>
     </IncludePaths>
     <SourceCodePaths>
-      <Path>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\</Path>
-      <Path>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Project_Settings\Startup_Code\</Path>
-      <Path>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Sources\</Path>
+      <Path>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\</Path>
+      <Path>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Project_Settings\Startup_Code\</Path>
+      <Path>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Sources\</Path>
     </SourceCodePaths>
   </PATHS>
   <FILES>
     <GeneratedCs>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\ADC_Temp.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\ASerialLdd1.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\AdcLdd1.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\BitIoLdd1.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\BitIoLdd2.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\Cpu.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\Delay_ms.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\LED.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\PE_LDD.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\TU1.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\TimerIntLdd1.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\UART.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\Vdd_Sensor.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\Vectors.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Project_Settings\Startup_Code\startup.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Sources\Events.c</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Sources\main.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\ADC_Temp.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\ASerialLdd1.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\AdcLdd1.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\BitIoLdd1.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\BitIoLdd2.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\Cpu.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\Delay_ms.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\LED.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\PE_LDD.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\TU1.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\TimerIntLdd1.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\UART.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\Vdd_Sensor.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\Vectors.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Project_Settings\Startup_Code\startup.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Sources\Events.c</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Sources\main.c</PathName>
     </GeneratedCs>
     <GeneratedHs>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\ADC_Temp.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\ASerialLdd1.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\AdcLdd1.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\BitIoLdd1.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\BitIoLdd2.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\Cpu.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\Delay_ms.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\IO_Map.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\LED.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\PE_Const.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\PE_Error.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\PE_LDD.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\PE_Types.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\TU1.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\TimerIntLdd1.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\UART.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Generated_Code\Vdd_Sensor.h</PathName>
-      <PathName>C:\Users\David\workspace.kds\LPM_con_sensor_temperatura_v2\Sources\Events.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\iofiles\MKL26Z4.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\ADC_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\CMP_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\COP_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\DAC_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\DMAMUX_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\DMA_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\FTFA_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\GPIO_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\I2C_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\LPTMR_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\MCM_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\PDD_Types.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\PIT_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\PORT_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\RTC_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SAI_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SIM_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SPI_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SysTick_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\TPM_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\UART0_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\UART_PDD.h</PathName>
-      <PathName>C:\Freescale\KDS_1.1.1\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\USB_PDD.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\ADC_Temp.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\ASerialLdd1.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\AdcLdd1.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\BitIoLdd1.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\BitIoLdd2.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\Cpu.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\Delay_ms.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\IO_Map.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\LED.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\PE_Const.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\PE_Error.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\PE_LDD.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\PE_Types.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\TU1.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\TimerIntLdd1.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\UART.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Generated_Code\Vdd_Sensor.h</PathName>
+      <PathName>C:\Users\Ezequiel\Documents\ARM\LPM\LPM_con_sensor_temperatura_v2\Sources\Events.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\iofiles\MKL26Z4.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\ADC_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\CMP_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\COP_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\DAC_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\DMAMUX_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\DMA_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\FTFA_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\GPIO_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\I2C_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\LPTMR_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\MCM_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\PDD_Types.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\PIT_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\PORT_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\RTC_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SAI_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SIM_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SPI_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\SysTick_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\TPM_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\UART0_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\UART_PDD.h</PathName>
+      <PathName>C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert\lib\Kinetis\pdd\inc\USB_PDD.h</PathName>
     </GeneratedHs>
   </FILES>
   <OPTIONS>

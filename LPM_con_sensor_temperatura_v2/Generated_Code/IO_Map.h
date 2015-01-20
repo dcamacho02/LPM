@@ -6,7 +6,7 @@
 **     Component   : IO_Map
 **     Version     : Driver 01.00
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-10-24, 16:24, # CodeGen: 0
+**     Date/Time   : 2015-01-19, 20:53, # CodeGen: 4
 **     Abstract    :
 **         IO_Map.h - implements an IO device's mapping. 
 **         This module contains symbol definitions of all peripheral 
@@ -74,7 +74,7 @@
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.10]
+**     This file was created by Processor Expert 10.4 [05.11]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

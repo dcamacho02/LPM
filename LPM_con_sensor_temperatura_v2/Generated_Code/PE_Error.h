@@ -6,7 +6,7 @@
 **     Component   : PE_Error
 **     Version     : Driver 01.00
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-10-24, 16:24, # CodeGen: 0
+**     Date/Time   : 2015-01-19, 20:53, # CodeGen: 4
 **     Abstract    :
 **         This component "PE_Error" contains internal definitions
 **         of the error constants.
@@ -121,7 +121,7 @@
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.10]
+**     This file was created by Processor Expert 10.4 [05.11]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################

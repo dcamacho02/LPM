@@ -1,0 +1,52 @@
+21:11:08 **** Incremental Build of configuration Debug for project LPM_con_sensor_temperatura_v2 ****
+make all 
+'Building file: ../Sources/Events.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Sources" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Generated_Code" -std=c99 -MMD -MP -MF"Sources/Events.d" -MT"Sources/Events.o" -c -o "Sources/Events.o" "../Sources/Events.c"
+'Finished building: ../Sources/Events.c'
+' '
+'Building file: ../Sources/main.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Sources" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Generated_Code" -std=c99 -MMD -MP -MF"Sources/main.d" -MT"Sources/main.o" -c -o "Sources/main.o" "../Sources/main.c"
+'Finished building: ../Sources/main.c'
+' '
+'Building file: ../Generated_Code/ADC_Temp.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Sources" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/ADC_Temp.d" -MT"Generated_Code/ADC_Temp.o" -c -o "Generated_Code/ADC_Temp.o" "../Generated_Code/ADC_Temp.c"
+'Finished building: ../Generated_Code/ADC_Temp.c'
+' '
+'Building file: ../Generated_Code/AdcLdd1.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Sources" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/AdcLdd1.d" -MT"Generated_Code/AdcLdd1.o" -c -o "Generated_Code/AdcLdd1.o" "../Generated_Code/AdcLdd1.c"
+'Finished building: ../Generated_Code/AdcLdd1.c'
+' '
+'Building file: ../Generated_Code/Cpu.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Sources" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Cpu.d" -MT"Generated_Code/Cpu.o" -c -o "Generated_Code/Cpu.o" "../Generated_Code/Cpu.c"
+'Finished building: ../Generated_Code/Cpu.c'
+' '
+'Building file: ../Generated_Code/Delay_ms.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Sources" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Delay_ms.d" -MT"Generated_Code/Delay_ms.o" -c -o "Generated_Code/Delay_ms.o" "../Generated_Code/Delay_ms.c"
+'Finished building: ../Generated_Code/Delay_ms.c'
+' '
+'Building file: ../Generated_Code/PE_LDD.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Sources" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/PE_LDD.d" -MT"Generated_Code/PE_LDD.o" -c -o "Generated_Code/PE_LDD.o" "../Generated_Code/PE_LDD.c"
+'Finished building: ../Generated_Code/PE_LDD.c'
+' '
+'Building file: ../Generated_Code/UART.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Sources" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/UART.d" -MT"Generated_Code/UART.o" -c -o "Generated_Code/UART.o" "../Generated_Code/UART.c"
+'Finished building: ../Generated_Code/UART.c'
+' '
+'Building file: ../Generated_Code/Vectors.c'
+'Invoking: Cross ARM C Compiler'
+arm-none-eabi-gcc -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/pdd/inc" -I"C:\Freescale\KDS_2.0.0\eclipse\ProcessorExpert/lib/Kinetis/iofiles" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Sources" -I"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Generated_Code" -std=c99 -MMD -MP -MF"Generated_Code/Vectors.d" -MT"Generated_Code/Vectors.o" -c -o "Generated_Code/Vectors.o" "../Generated_Code/Vectors.c"
+'Finished building: ../Generated_Code/Vectors.c'
+' '
+'Building target: LPM_con_sensor_temperatura_v2.elf'
+'Invoking: Cross ARM C++ Linker'
+arm-none-eabi-g++ -mcpu=cortex-m0plus -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Project_Settings/Linker_Files/ProcessorExpert.ld" -Xlinker --gc-sections -L"C:/Users/Ezequiel/Documents/ARM/LPM/LPM_con_sensor_temperatura_v2/Project_Settings/Linker_Files" -Wl,-Map,"LPM_con_sensor_temperatura_v2.map" -nanolibc -o "LPM_con_sensor_temperatura_v2.elf"  ./Sources/Events.o ./Sources/main.o  ./Project_Settings/Startup_Code/startup.o  ./Generated_Code/ADC_Temp.o ./Generated_Code/ASerialLdd1.o ./Generated_Code/AdcLdd1.o ./Generated_Code/BitIoLdd1.o ./Generated_Code/BitIoLdd2.o ./Generated_Code/Cpu.o ./Generated_Code/Delay_ms.o ./Generated_Code/LED.o ./Generated_Code/PE_LDD.o ./Generated_Code/TU1.o ./Generated_Code/TimerIntLdd1.o ./Generated_Code/UART.o ./Generated_Code/Vdd_Sensor.o ./Generated_Code/Vectors.o   
+'Finished building target: LPM_con_sensor_temperatura_v2.elf'
+' '

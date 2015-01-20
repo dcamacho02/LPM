@@ -6,7 +6,7 @@
 **     Component   : PE_Types
 **     Version     : Driver 01.01
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2014-10-24, 17:10, # CodeGen: 1
+**     Date/Time   : 2015-01-19, 20:53, # CodeGen: 4
 **     Abstract    :
 **         PE_Types.h - contains definitions of basic types,
 **         register access macros and hardware specific macros
@@ -125,6 +125,7 @@ typedef unsigned long int       uint32;
  } while(0)
 
 
+
 /* Save status register and disable interrupts */
 #define EnterCritical() \
  do {\
@@ -142,6 +143,7 @@ typedef unsigned long int       uint32;
    }\
  } while(0)
 
+ 
 /* Restore status register  */
 #define ExitCritical() \
  do {\
@@ -2503,7 +2505,7 @@ typedef enum {
 /*
 ** ###################################################################
 **
-**     This file was created by Processor Expert 10.4 [05.10]
+**     This file was created by Processor Expert 10.4 [05.11]
 **     for the Freescale Kinetis series of microcontrollers.
 **
 ** ###################################################################
